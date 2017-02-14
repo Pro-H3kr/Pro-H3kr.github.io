@@ -1,0 +1,26 @@
+h1 {
+  color: red;
+}
+p {
+  text-align: left;
+  color: red;
+  float: none;
+}
+body {
+  background-color: black;
+}
+td {
+  width: 30%;
+}
+.main {
+  width: 60%;
+}
+.body {
+  display: block;
+  position: relative;
+  /*margin: 100px;
+  top: 200px;*/
+}
+a {
+  color: purple;
+}
