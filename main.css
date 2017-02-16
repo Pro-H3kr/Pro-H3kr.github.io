@@ -1,0 +1,34 @@
+h1 {
+  color: red;
+}
+p {
+  text-align: left;
+  color: red;
+  float: none;
+}
+body {
+  background-color: black;
+}
+td {
+  width: 10%;
+}
+.main {
+  width: 60%;
+}
+.main > h1 {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+.body {
+  display: block;
+  position: relative;
+  /*margin: 100px;
+  top: 200px;*/
+}
+a {
+  color: red;
+}
+a:hover {
+  color: white;
+}
