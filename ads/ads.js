@@ -13,13 +13,20 @@ randomAd();*/
     }
 );
 */
-adImages = ['aclk1.jpeg', 'giphy.gif', 'Shamwow.png', 'DealOrNoDeal.gif','GreatGiveAway.gif','Meet+hot+2598.png','Meet+hot+russian+singles_23a0af_5882598.jpg', 'ProfitAds.gif','Profits.gif', 'QueerEye.gif', 'remove-website-ads.jpg','Skin.gif', 'Stock.gif', 'StudentDebt.gif','SuperHeros.gif','Support.gif','VideoGuide.gif','YourAdHere.gif'];
+adImages = ['aclk1.jpeg', 'giphy.gif', 'Shamwow.png', 'DealOrNoDeal.gif','GreatGiveAway.gif','Meet+hot+2598.png','Meet+hot+russian+singles_23a0af_5882598.jpg', 'ProfitAds.gif','Profits.gif', 'QueerEye.gif', 'remove-website-ads.jpg','Skin.gif', 'Stock.gif', 'StudentDebt.gif','SuperHeros.gif','Support.gif','VideoGuide.gif','YourAdHere.gif','animu.png', 'TheTruth.png'];
 var randomAd = function(adImages) {
     ad = document.getElementById('ad');
     ad.src = '../ads/' + adImages[Math.floor(Math.random()*adImages.length)];
     //console.log('done');
 }
 randomAd(adImages);
+ad = document.getElementById('ad')
+ad.onclick = function(){
+  while (true){
+    text = window.prompt("Please enter your credit card number to redeem this amazing offer!","");
+    window.alert('Thank you for your credit card number, you will be recieving your amazing offer shortly');
+  }
+}
 /*randomAd = function(adImages){
     ads = document.getElementsByClassName('ad');
     console.log(ads.item(0));
