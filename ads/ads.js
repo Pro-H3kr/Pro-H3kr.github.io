@@ -13,7 +13,7 @@ randomAd();*/
     }
 );
 */
-adImages = ['aclk1.jpeg', 'giphy.gif', 'Shamwow.png', 'DealOrNoDeal.gif','GreatGiveAway.gif','Meet+hot+2598.png','Meet+hot+russian+singles_23a0af_5882598.jpg', 'ProfitAds.gif','Profits.gif', 'QueerEye.gif', 'remove-website-ads.jpg','Skin.gif', 'Stock.gif', 'StudentDebt.gif','SuperHeros.gif','Support.gif','VideoGuide.gif','YourAdHere.gif','animu.png', 'TheTruth.png'];
+adImages = ['aclk1.jpeg', 'giphy.gif', 'Shamwow.png', 'DealOrNoDeal.gif','GreatGiveAway.gif','Meet+hot+2598.png','Meet+hot+russian+singles_23a0af_5882598.jpg', 'ProfitAds.gif','Profits.gif', 'QueerEye.gif', 'remove-website-ads.jpg','Skin.gif', 'Stock.gif', 'StudentDebt.gif','SuperHeros.gif','Support.gif','VideoGuide.gif','YourAdHere.gif','animu.png', 'TheTruth.png', 'Singles.jpg', 'Amish.jpg', 'lightsaber.png', 'Shingles.jpg', 'Gluten.jpg', 'Anonymous.jpg', 'HotTea.jpg', 'Ballou.png'];
 var randomAd = function(adImages) {
     ad = document.getElementById('ad');
     ad.src = '../ads/' + adImages[Math.floor(Math.random()*adImages.length)];
